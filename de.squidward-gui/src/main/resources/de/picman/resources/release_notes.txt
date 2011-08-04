@@ -1,0 +1,82 @@
+VERSION 0.9.3a
+Major:
+- Es gibt jetzt einen Button, um ein gewähltes Bild zur Ablage hinzuzufügen.
+- Es können jetzt auch Bilder per Drag-and-Drop zur Ablage hinzugefügt werden. 
+
+
+
+VERSION 0.9.3
+Major:
+- Suche: es ist jetzt möglich, auch nach Besitzern zu suchen.
+- CACHING: es ist jetzt ein Bilder-Caching-Mechanismus eingebaut, der das Starten der Oberfläche deutlich schneller machen soll.
+- Bugfix: ein Bug, der nur die ersten 1000 Log-Eintr‰ge in das Log-File schrieb. Es werden nun immer die 1000 aktuellsten Einträge geschrieben.
+- Neuer Login- und Lade-Dialog.
+
+Minor:
+- Das Feld "Beschreibung" bei der Anzeige der Bildeigenschaften ist jetzt grösser.
+
+VERSION 0.9.2a
+Major:
+- About-Dialog um Datenbank-Informationen erweitert.
+- Benutzer-Anlegen-Dialog: Passwort-Bug gefixed.
+- Log-Einträge exportieren: Es werden nun immer nur die letzten 1000 Log-Einträge angezeigt und exportiert. 
+- Neue Backend-Library: Unbekannter Fehler "Portal" sollte nicht mehr vorkommen.
+- GUI-Blocking bei Bildauswahl ueberarbeitet.
+
+Minor:
+- Beim Laden der Bild-Details wird die GUI nur gelockt, wenn sie nicht bereits gelockt ist (ausserdem schläft der Warte-Thread 100ms).
+- "Bilder Löschen" Logik ¸berarbeitet.
+- Bei einigen Actions "lockLight() in "lock()" ge‰ndert.
+- Speicherbereinigung für Previewbilder eingebaut.
+
+VERSION 0.9.1
+Major:
+-Neue Backend-Library:
+-- Log-Einträge nun mit Datum und Uhrzeiten.
+-- Neue Funktion im Controller zum bestimmen der Gesamtzahl der Log-Einträge in der DB 
+
+Minor:
+- "Such-Ergebnise" heisst jetzt "Suchergebnisse".
+- "Ablage löschen" heisse jetzt "Ablage leeren".
+- "Bild löschen"-Button ist disabled, wenn Bild im Papierkorb ist. 
+- Ein wiederhergestelltes Bild wird sofort im Papierkorb nicht mehr angezeigt.
+- Statuslogik der Ablage-Buttons überarbeitet
+- Login-Logik überarbeitet.
+
+
+VERSION 0.9.0
+Keine Wesentlichen ƒnderungen. Version zur Übergabe an LPV.
+
+
+VERSION 0.8.2
+Major:
+ - Ergebnis-Browser: hat nun einen Steuermechanismus für die Ergebnisdaten.
+ - Bildeigenschaften: können jetzt editiert werden.
+ - Bildeigenschaften: "Hinzugefügt"-Datum wird jetzt angezeigt.
+ - Zugewiesene Kategorien: können nun nachtr‰glich editiert und hinzugefügt werden (ohne Zwangsführung!)
+ - Administrator-Menu: es gibt jetzt einen Editor für die Kategorien
+ - Kategorien-Editor: Umbenennen, Neuanlegen und Löschen von Kategorien ist implementiert 
+ - Login: Application beendet bei 3 gescheiterten Login-Vesuchen
+ - GUI: Neuordnung des Hauptmenüs
+ - GUI: Es gibt jetzt einen SplashScreen.
+ - Kategorien-Zuweisen: Beim Zuordnen von Kategorien, kˆnnen nun auch Kategorien per Doppelklick wieder entfernt werden
+ - Löschen: "User" können Bilder "löschen" und "wiederherstellen" (solange die Ansicht nicht "refreshed" wurde)
+ - Löschen: "Admins" können "gelöschte" Bilder "wiederherstellen" und Bilder entgültig löschen.
+ - Suche: Kategorien können nun als Suchkriterien hinzugefügt werden.
+ 
+VERSION 0.8.1
+Major:
+ - GUI: Es gibt jetzt einen "über" - Dialog.
+ - GUI: Die zugeordneten Kategorien werden jetzt für jedes Bild in der Hauptübersicht anzeigt.
+ - "Zwangführung": es können nur Bilder hochgeladen werden, wenn alle Kategorien bearbeitet wurden.
+ - GUI: Gewähltes Bild kann in externem Editor (z.B. IrfanView) bearbeitet werden.
+ - Rot/Grüne Icons wurden ausgetauscht.
+ - Datenbankzugang per Login_Dialog konfigurierbar
+ - Bugfixes
+Minor:
+ - Rahmen, um aufgewähltes Bild in der Hauptansicht ist jetzt Orange.
+	
+	
+	
+VERSION 0.8.0
+ - BETA 1	

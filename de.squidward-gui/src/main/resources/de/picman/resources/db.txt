@@ -1,0 +1,17 @@
+DB:/db_backup/backups# psql -U postgres -W -h 192.168.0.2
+Passwort für Benutzer postgres: 
+Dies ist psql 8.3.8, das interaktive PostgreSQL-Terminal.
+
+Geben Sie ein:  \copyright für Urheberrechtsinformationen
+                \h für Hilfe über SQL-Anweisungen
+                \? für Hilfe über interne Anweisungen
+                \g oder Semikolon, um eine Anfrage auszuführen
+                \q um zu beenden
+
+postgres=# \c picturedb
+Passwort für Benutzer postgres: 
+Sie sind jetzt verbunden mit der Datenbank »picturedb«.
+picturedb=# 
+
+
+
