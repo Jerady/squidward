@@ -46,22 +46,11 @@ public class FirstTest {
 
 	public static void main(String[] args) throws URISyntaxException {
 
-		clearThumbnailCache();
-			
 		
 	}
 	
 	
-	public static void clearThumbnailCache(){
-		DbController controller = GUIControl.get().getDbController();
-
-		try {
-			controller.clearThumbnailCache();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-	}
+	
 	
 	
 	public static void printCategories(){

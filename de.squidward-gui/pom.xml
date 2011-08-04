@@ -3,10 +3,57 @@
   <groupId>de.squidward</groupId>
   <artifactId>gui</artifactId>
   <version>0.0.1</version>
+  <name>Squidward</name>
+  <repositories>
+        <repository>
+        <id>thirdparty-releases</id>
+        <name>JBoss Thirdparty Releases</name>
+        <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases</url>
+      </repository>
+    </repositories>
   <dependencies>
   	<dependency>
-  		<artifactId></artifactId>
+  		<groupId>org.swinglabs</groupId>
+  		<artifactId>swingx-core</artifactId>
+  		<version>1.6.2-2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.drewnoakes</groupId>
+  		<artifactId>metadata-extractor</artifactId>
+  		<version>2.4.0-beta-1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.github.insubstantial</groupId>
+  		<artifactId>trident</artifactId>
+  		<version>6.3</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.jgoodies</groupId>
+  		<artifactId>looks</artifactId>
+  		<version>2.2.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.jgoodies</groupId>
+  		<artifactId>forms</artifactId>
+  		<version>1.2.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>postgresql</groupId>
+  		<artifactId>postgresql</artifactId>
+  		<version>9.0-801.jdbc4</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.jdom</groupId>
+  		<artifactId>jdom</artifactId>
+  		<version>1.1</version>
   	</dependency>
   </dependencies>
-  <name>Squidward</name>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-assembly-plugin</artifactId>
+  		</plugin>
+  	</plugins>
+  </build>
 </project>
