@@ -9,7 +9,7 @@ import javax.swing.JComponent;
 import javax.swing.JList;
 import javax.swing.TransferHandler;
 
-import de.rahn.bilderdb.db.Picture;
+import de.picman.backend.db.Picture;
 
 
 public class PictureTransferHandler extends TransferHandler {

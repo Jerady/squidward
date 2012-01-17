@@ -11,8 +11,8 @@ import javax.swing.DefaultListCellRenderer;
 import javax.swing.ImageIcon;
 import javax.swing.JList;
 
+import de.picman.backend.db.Picture;
 import de.picman.gui.utils.ImageUtils;
-import de.rahn.bilderdb.db.Picture;
 
 public class PictureDisplayCellRenderer extends DefaultListCellRenderer {
 

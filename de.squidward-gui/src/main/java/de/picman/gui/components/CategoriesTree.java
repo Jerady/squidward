@@ -15,10 +15,10 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreePath;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Category;
+import de.picman.backend.db.DbController;
 import de.picman.gui.renderer.CategoriesTreeCellRenderer;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Category;
-import de.rahn.bilderdb.db.DbController;
 
 @SuppressWarnings("unused")
 public class CategoriesTree extends JTree {

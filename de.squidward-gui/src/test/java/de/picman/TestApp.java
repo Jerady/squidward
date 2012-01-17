@@ -4,7 +4,7 @@ import java.awt.Desktop;
 import java.awt.SplashScreen;
 import java.net.URI;
 
-import de.rahn.bilderdb.control.ApplicationControl;
+import de.picman.backend.control.ApplicationControl;
 
 public class TestApp {
 	public static void main(String[] args) {

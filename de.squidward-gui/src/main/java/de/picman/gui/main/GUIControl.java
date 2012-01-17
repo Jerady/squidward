@@ -19,6 +19,9 @@ import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.filechooser.FileFilter;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.DbController;
+import de.picman.backend.db.User;
 import de.picman.gui.actions.TakeScreenShotAction;
 import de.picman.gui.api.PrefsKeys;
 import de.picman.gui.components.MainFrame;
@@ -29,9 +32,6 @@ import de.picman.gui.components.SearchResultObserver;
 import de.picman.gui.dialogs.LoadPicturesFrame;
 import de.picman.gui.dialogs.SquidwardLoginDialog;
 import de.picman.gui.providers.IconProvider;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.DbController;
-import de.rahn.bilderdb.db.User;
 
 public class GUIControl {
 

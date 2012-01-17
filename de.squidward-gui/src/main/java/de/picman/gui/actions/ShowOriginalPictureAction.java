@@ -2,9 +2,9 @@ package de.picman.gui.actions;
 
 import java.awt.event.ActionEvent;
 
+import de.picman.backend.db.Picture;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.dialogs.PictureViewerDialog;
-import de.rahn.bilderdb.db.Picture;
 
 public class ShowOriginalPictureAction extends AbstractPicmanAction {	/**
 	 * 

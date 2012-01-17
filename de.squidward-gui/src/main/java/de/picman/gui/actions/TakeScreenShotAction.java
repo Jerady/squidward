@@ -13,9 +13,9 @@ import javax.swing.AbstractAction;
 import javax.swing.JFileChooser;
 import javax.swing.SwingWorker;
 
+import de.picman.backend.control.ApplicationControl;
 import de.picman.gui.api.PrefsKeys;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.control.ApplicationControl;
 
 public class TakeScreenShotAction extends AbstractAction {
 

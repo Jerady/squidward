@@ -6,8 +6,8 @@ import java.awt.Component;
 import javax.swing.DefaultListCellRenderer;
 import javax.swing.JList;
 
+import de.picman.backend.db.User;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.db.User;
 
 public class UserListCellRenderer extends DefaultListCellRenderer {
 	

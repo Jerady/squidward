@@ -26,13 +26,13 @@ import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.DbController;
+import de.picman.backend.db.Picture;
+import de.picman.backend.db.User;
 import de.picman.gui.actions.AbstractPicmanAction;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.DbController;
-import de.rahn.bilderdb.db.Picture;
-import de.rahn.bilderdb.db.User;
 
 
 public class PicturePropertiesEditorDialog extends JDialog {

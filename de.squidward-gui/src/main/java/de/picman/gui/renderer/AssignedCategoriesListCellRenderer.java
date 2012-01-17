@@ -7,8 +7,8 @@ import java.awt.Font;
 import javax.swing.DefaultListCellRenderer;
 import javax.swing.JList;
 
+import de.picman.backend.db.Category;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.db.Category;
 
 public class AssignedCategoriesListCellRenderer extends DefaultListCellRenderer {
 

@@ -3,8 +3,8 @@ package de.picman.gui.components;
 import java.util.HashMap;
 import java.util.Observable;
 
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
 
 public class PictureClipboard extends Observable{
 

@@ -20,9 +20,9 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
 
 
 public class PicturePropertiesEditorPanel extends JPanel {

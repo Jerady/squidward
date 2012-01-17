@@ -4,8 +4,8 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.Action;
 
+import de.picman.backend.control.ApplicationControl;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.control.ApplicationControl;
 
 public class StartGarbageCollectorAction extends AbstractPicmanAction {
 	

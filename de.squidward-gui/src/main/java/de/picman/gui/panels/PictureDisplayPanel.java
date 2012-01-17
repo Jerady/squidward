@@ -26,6 +26,8 @@ import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.components.PictureClipboard;
 import de.picman.gui.components.SearchResult;
@@ -33,8 +35,6 @@ import de.picman.gui.main.GUIControl;
 import de.picman.gui.providers.ActionProvider;
 import de.picman.gui.renderer.PictureDisplayCellRenderer;
 import de.picman.gui.renderer.WorkerThreadControl;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
 
 public class PictureDisplayPanel extends JXTitledPanel {
 

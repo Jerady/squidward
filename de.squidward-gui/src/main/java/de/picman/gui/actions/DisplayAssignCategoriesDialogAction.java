@@ -6,10 +6,10 @@ import java.util.HashMap;
 import javax.swing.Action;
 import javax.swing.SwingWorker;
 
+import de.picman.backend.db.Category;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.dialogs.AssignCategoriesDialog;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.db.Category;
 
 public class DisplayAssignCategoriesDialogAction extends AbstractPicmanAction {
 

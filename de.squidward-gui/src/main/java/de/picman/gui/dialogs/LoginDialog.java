@@ -25,10 +25,10 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 
+import de.picman.backend.control.ApplicationControl;
 import de.picman.gui.main.GUIControl;
 import de.picman.gui.panels.DatabaseSettingsPanel;
 import de.picman.gui.providers.ResourceAnchor;
-import de.rahn.bilderdb.control.ApplicationControl;
 
 public class LoginDialog extends JDialog {
 

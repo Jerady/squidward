@@ -4,11 +4,11 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.Action;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.main.GUIControl;
 import de.picman.gui.providers.ActionProvider;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
 
 public class RestorePictureAction extends AbstractPicmanAction {
 

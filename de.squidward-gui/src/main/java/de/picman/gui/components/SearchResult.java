@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Observable;
 
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
 
 public class SearchResult extends Observable{
 

@@ -53,6 +53,11 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Category;
+import de.picman.backend.db.DbController;
+import de.picman.backend.db.Picture;
+import de.picman.backend.db.User;
 import de.picman.gui.actions.AbstractPicmanAction;
 import de.picman.gui.api.PrefsKeys;
 import de.picman.gui.components.CategoriesTree;
@@ -62,11 +67,6 @@ import de.picman.gui.panels.ListPanel;
 import de.picman.gui.panels.PreviewPane;
 import de.picman.gui.renderer.AssignedCategoriesListCellRenderer;
 import de.picman.gui.renderer.PicutureListCellRenderer;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Category;
-import de.rahn.bilderdb.db.DbController;
-import de.rahn.bilderdb.db.Picture;
-import de.rahn.bilderdb.db.User;
 
 
 public class UploadPicturesDialog extends JDialog {

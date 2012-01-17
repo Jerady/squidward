@@ -7,11 +7,11 @@ import java.util.Set;
 import javax.swing.Action;
 import javax.swing.SwingWorker;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.components.SearchResult;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
 
 public class DisplayAllPicturesAction extends AbstractPicmanAction {
 

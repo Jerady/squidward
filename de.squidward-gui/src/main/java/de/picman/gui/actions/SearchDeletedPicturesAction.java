@@ -5,13 +5,13 @@ import java.awt.event.ActionEvent;
 import javax.swing.Action;
 import javax.swing.SwingWorker;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
+import de.picman.backend.db.PictureColumn;
+import de.picman.backend.db.PictureSearchCriteria;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.components.SearchResult;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
-import de.rahn.bilderdb.db.PictureColumn;
-import de.rahn.bilderdb.db.PictureSearchCriteria;
 
 public class SearchDeletedPicturesAction extends AbstractPicmanAction {
 

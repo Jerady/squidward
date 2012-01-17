@@ -11,8 +11,8 @@ import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
+import de.picman.backend.db.User;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.db.User;
 
 
 

@@ -10,10 +10,10 @@ import java.util.Date;
 import javax.swing.Action;
 import javax.swing.JFileChooser;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.DbController;
+import de.picman.backend.db.LogEntry;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.DbController;
-import de.rahn.bilderdb.db.LogEntry;
 
 public class SaveLogAction extends AbstractPicmanAction {
 

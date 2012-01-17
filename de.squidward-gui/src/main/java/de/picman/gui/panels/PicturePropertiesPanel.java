@@ -32,17 +32,17 @@ import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Category;
+import de.picman.backend.db.DbController;
+import de.picman.backend.db.Picture;
+import de.picman.backend.db.User;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.dialogs.AssignCategoriesDialog;
 import de.picman.gui.dialogs.PicturePropertiesEditorDialog;
 import de.picman.gui.main.GUIControl;
 import de.picman.gui.providers.ActionProvider;
 import de.picman.gui.renderer.AssignedCategoriesListCellRenderer;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Category;
-import de.rahn.bilderdb.db.DbController;
-import de.rahn.bilderdb.db.Picture;
-import de.rahn.bilderdb.db.User;
 
 
 public class PicturePropertiesPanel extends JPanel {

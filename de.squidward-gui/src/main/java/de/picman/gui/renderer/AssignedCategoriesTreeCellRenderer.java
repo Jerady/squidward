@@ -8,8 +8,8 @@ import javax.swing.JTree;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeCellRenderer;
 
+import de.picman.backend.db.Category;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.db.Category;
 
 public class AssignedCategoriesTreeCellRenderer extends DefaultTreeCellRenderer {
 

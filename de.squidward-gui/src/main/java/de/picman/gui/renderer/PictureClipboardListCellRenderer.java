@@ -9,7 +9,7 @@ import javax.swing.DefaultListCellRenderer;
 import javax.swing.ImageIcon;
 import javax.swing.JList;
 
-import de.rahn.bilderdb.db.Picture;
+import de.picman.backend.db.Picture;
 
 public class PictureClipboardListCellRenderer extends DefaultListCellRenderer {
 

@@ -12,8 +12,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
 
 public class PictureViewerDialog extends JDialog{
 

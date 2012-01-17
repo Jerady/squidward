@@ -37,12 +37,12 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 
+import de.picman.backend.db.Picture;
 import de.picman.gui.actions.AbstractPicmanAction;
 import de.picman.gui.components.PictureClipboard;
 import de.picman.gui.main.GUIControl;
 import de.picman.gui.providers.ActionProvider;
 import de.picman.gui.renderer.PictureClipboardListCellRenderer;
-import de.rahn.bilderdb.db.Picture;
 
 
 public class PictureClipboardPanel extends JXTitledPanel {

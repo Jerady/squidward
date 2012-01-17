@@ -24,12 +24,12 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.User;
 import de.picman.gui.actions.AbstractPicmanAction;
 import de.picman.gui.main.GUIControl;
 import de.picman.gui.panels.ListPanel;
 import de.picman.gui.renderer.UserListCellRenderer;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.User;
 
 public class UserEditorDialog extends JDialog {
 

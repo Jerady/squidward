@@ -27,13 +27,13 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Picture;
+import de.picman.backend.db.SupportedImageFiles;
 import de.picman.gui.api.PrefsKeys;
 import de.picman.gui.components.MainFrame;
 import de.picman.gui.components.PictureClipboard;
 import de.picman.gui.main.GUIControl;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Picture;
-import de.rahn.bilderdb.db.SupportedImageFiles;
 
 public class ExportPicturesDialog extends JDialog {
 

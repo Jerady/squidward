@@ -24,13 +24,13 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Category;
 import de.picman.gui.actions.AbstractPicmanAction;
 import de.picman.gui.components.EditableCategoriesTree;
 import de.picman.gui.components.TreeUtilities;
 import de.picman.gui.main.GUIControl;
 import de.picman.gui.panels.CategoryPropertiesPanel;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Category;
 
 public class CategoriesEditorDialog extends JDialog {
 

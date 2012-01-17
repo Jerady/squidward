@@ -2,8 +2,8 @@ package de.picman.gui.components;
 
 import org.jdesktop.swingx.auth.LoginService;
 
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.User;
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.User;
 
 
 public class SquidWardLoginService extends LoginService {

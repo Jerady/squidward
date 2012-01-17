@@ -4,6 +4,8 @@ import java.util.HashMap;
 
 import javax.swing.Action;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Category;
 import de.picman.gui.actions.ClearPictureClipboardAction;
 import de.picman.gui.actions.DeletePictureAction;
 import de.picman.gui.actions.DisplayAboutDialogAction;
@@ -24,8 +26,6 @@ import de.picman.gui.actions.SearchPictureByCategoryAction;
 import de.picman.gui.actions.SendClipboardMailAction;
 import de.picman.gui.actions.StartGarbageCollectorAction;
 import de.picman.gui.actions.UploadPictureAction;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Category;
 
 public class ActionProvider {
 	

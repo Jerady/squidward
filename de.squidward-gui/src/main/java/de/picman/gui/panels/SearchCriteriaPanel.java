@@ -38,17 +38,17 @@ import com.jgoodies.forms.layout.FormLayout;
 import com.jgoodies.looks.LookUtils;
 import com.jgoodies.looks.Options;
 
+import de.picman.backend.control.ApplicationControl;
+import de.picman.backend.db.Category;
+import de.picman.backend.db.PictureColumn;
+import de.picman.backend.db.PictureSearchCriteria;
+import de.picman.backend.db.User;
 import de.picman.gui.actions.AbstractPicmanAction;
 import de.picman.gui.actions.SearchPictureAction;
 import de.picman.gui.dialogs.AssignCategoriesDialog;
 import de.picman.gui.main.GUIControl;
 import de.picman.gui.renderer.AssignedCategoriesListCellRenderer;
 import de.picman.gui.renderer.UserListCellRenderer;
-import de.rahn.bilderdb.control.ApplicationControl;
-import de.rahn.bilderdb.db.Category;
-import de.rahn.bilderdb.db.PictureColumn;
-import de.rahn.bilderdb.db.PictureSearchCriteria;
-import de.rahn.bilderdb.db.User;
 
 public class SearchCriteriaPanel extends JXTitledPanel{
 
