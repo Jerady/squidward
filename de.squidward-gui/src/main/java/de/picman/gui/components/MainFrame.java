@@ -77,7 +77,7 @@ public class MainFrame extends JFrame {
 		add(getMainPane(), BorderLayout.CENTER);
 		getStatusPanel().setCurrentUser(ApplicationControl.getInstance().getCurrentUser());
 		setLocationRelativeTo(null);
-		setDefaultLookAndFeelDecorated(false);
+		setDefaultLookAndFeelDecorated(true);
 	}
 
 	

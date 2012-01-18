@@ -1,6 +1,5 @@
 package de.picman.gui.main;
 
-import java.awt.Color;
 import java.awt.KeyEventPostProcessor;
 import java.awt.KeyboardFocusManager;
 import java.awt.event.KeyEvent;
@@ -55,7 +54,7 @@ public class GUIControl {
 		super();
 		setProperty(PrefsKeys.GUI_APPNAME, "Squidward");
 		setProperty(PrefsKeys.GUI_VERSION, "0.9.3a");
-		setProperty(PrefsKeys.GUI_UPLOAD_CONTROL, true);
+		setProperty(PrefsKeys.GUI_UPLOAD_CONTROL, false);
 		setProperty(PrefsKeys.GUI_DELETE_ORIGINALS, false);
 		setProperty(PrefsKeys.GUI_AUTHOR, "Jens Deters und Ole Rahn");
 	}
@@ -229,25 +228,25 @@ public class GUIControl {
 			for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
 				if ("Nimbus".equals(info.getName())) {
 					UIManager.setLookAndFeel(info.getClassName());
-					UIManager.put("nimbusBase", new Color(40, 40, 40));
-					UIManager.put("nimbusBlueGrey", new Color(60, 60, 70));
-					UIManager.put("control", new Color(100, 100, 100));
-					// UIManager.put("text", new Color(240,240,240));
-					UIManager.put("controlText", new Color(240, 240, 240));
-					UIManager.put("infoText", new Color(240, 240, 240));
-					UIManager.put("menuText", new Color(240, 240, 240));
-					UIManager.put("textForeground", new Color(240, 240, 240));
-					UIManager.put("TextField.foreground", new Color(0, 0, 0));
-					UIManager.put("PasswordField.foreground", new Color(0, 0, 0));
-					UIManager.put("List.foreground", new Color(0, 0, 0));
-					UIManager.put("Label.foreground", new Color(0, 0, 0));
-					UIManager.put("MenuItem.foreground",  new Color(240, 240, 240));
-					UIManager.put("MenuBar.foreground",  new Color(240, 240, 240));
-					UIManager.put("Menu[Enabled].textForeground",  new Color(240, 240, 240));
-					UIManager.put("TextPane.foreground", new Color(0, 0, 0));
-					UIManager.put("TextArea.foreground", new Color(0, 0, 0));
-					UIManager.put("FileChooser.foreground", new Color(0, 0, 0));
-					UIManager.put("ComboBox.background", new Color(0, 0, 0));
+//					UIManager.put("nimbusBase", new Color(40, 40, 40));
+//					UIManager.put("nimbusBlueGrey", new Color(60, 60, 70));
+//					UIManager.put("control", new Color(100, 100, 100));
+//					// UIManager.put("text", new Color(240,240,240));
+//					UIManager.put("controlText", new Color(240, 240, 240));
+//					UIManager.put("infoText", new Color(240, 240, 240));
+//					UIManager.put("menuText", new Color(240, 240, 240));
+//					UIManager.put("textForeground", new Color(240, 240, 240));
+//					UIManager.put("TextField.foreground", new Color(0, 0, 0));
+//					UIManager.put("PasswordField.foreground", new Color(0, 0, 0));
+//					UIManager.put("List.foreground", new Color(0, 0, 0));
+//					UIManager.put("Label.foreground", new Color(0, 0, 0));
+//					UIManager.put("MenuItem.foreground",  new Color(240, 240, 240));
+//					UIManager.put("MenuBar.foreground",  new Color(240, 240, 240));
+//					UIManager.put("Menu[Enabled].textForeground",  new Color(240, 240, 240));
+//					UIManager.put("TextPane.foreground", new Color(0, 0, 0));
+//					UIManager.put("TextArea.foreground", new Color(0, 0, 0));
+//					UIManager.put("FileChooser.foreground", new Color(0, 0, 0));
+//					UIManager.put("ComboBox.background", new Color(0, 0, 0));
 					break;
 				}
 			}

@@ -16,7 +16,7 @@ public class PictureTransferHandler extends TransferHandler {
 
 	private static final long serialVersionUID = 1615536956826455661L;
 	private DataFlavor pictureFlavor;
-	private String pictureFlavorType = DataFlavor.javaJVMLocalObjectMimeType+";class=de.rahn.bilderdb.db.Picture";
+	private String pictureFlavorType = DataFlavor.javaJVMLocalObjectMimeType+";class=de.picman.backend.db.Picture";
 	private JList source;
 	
 	public PictureTransferHandler() {
